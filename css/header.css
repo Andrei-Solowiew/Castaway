@@ -1,0 +1,20 @@
+.header {
+  padding: 43px 0;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1440px;
+}
+
+.header__nav {
+  padding-right: 23px;
+}
+
+.header__list {
+  display: flex;
+  gap: 43px;
+  font-size: 18px;
+}
