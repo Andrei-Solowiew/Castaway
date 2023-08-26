@@ -6,7 +6,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 65px;
+  margin-bottom: 66px;
 }
 
 .episodes__h2 {
@@ -22,6 +22,7 @@
 
 .episodes__list {
   flex-direction: column;
+  gap: 60px;
 }
 
 .episodes__item {
@@ -36,7 +37,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-top: 10px;
+  margin-top: 8px;
 }
 
 .episodes__topic {
@@ -49,7 +50,7 @@
 }
 
 .episodes__number {
-  margin-bottom: 24px;
+  margin-bottom: 25px;
   color: #118da8;
   font-size: 18px;
 }
@@ -60,17 +61,18 @@
 
 .episodes__name {
   margin-bottom: 27px;
+  max-width: 686px;
 }
 
 .episodes__p {
-  margin-bottom: 16px;
-  max-width: 757px;
+  margin-bottom: 17px;
+  max-width: 773px;
   line-height: 150%;
   font-size: 22px;
   color: rgba(255, 255, 255, 0.7);
 }
 
 .episodes__list-btn {
-  padding: 18px 15px 18px 20px;
+  padding: 17px 15px 17px 20px;
   font-size: 18px;
 }
