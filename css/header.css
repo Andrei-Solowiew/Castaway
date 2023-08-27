@@ -101,4 +101,8 @@
     border-bottom: 1px solid #fff;
   }
 
+  .header__list {
+    display: none;
+  }
+
 }
