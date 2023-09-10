@@ -108,7 +108,7 @@
 
 	.episodes__img {
 		width: 100%;
-		height: 200px;
+		min-height: 200px;
 		background-position: 0 -250px;
 	}
 }
