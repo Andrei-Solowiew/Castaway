@@ -111,6 +111,9 @@
 }
 
 @media (max-width: 320px) {
+	.author {
+		padding-bottom: 0;
+	}
 	.author__link {
 		padding-top: 95px;
 	}
