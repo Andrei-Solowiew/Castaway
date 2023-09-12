@@ -89,6 +89,7 @@
 @media (max-width: 728px) {
 	.author {
 		padding-top: 50px;
+		padding-bottom: 0;
 	}
 
 	.author__container {

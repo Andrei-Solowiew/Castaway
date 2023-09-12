@@ -3,6 +3,7 @@
 }
 
 .reviews__list {
+	justify-content: center;
 	flex-wrap: wrap;
 	gap: 15px;
 }
@@ -35,4 +36,29 @@
 	color: rgba(255, 255, 255, 0.7);
 	font-size: 24px;
 	line-height: 120%;
+}
+
+@media (max-width: 768px) {
+	.reviews {
+		padding: 100px 0;
+	}
+	.reviews__item {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.reviews__h3 {
+		text-align: center;
+	}
+}
+
+@media (max-width: 320px) {
+	.reviews__h3 {
+		margin-bottom: 10px;
+		font-size: 28px;
+	}
+
+	.reviews__p {
+		font-size: 20px;
+	}
 }
