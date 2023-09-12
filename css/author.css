@@ -33,6 +33,15 @@
 	background-image: url('../img/author__arrow.png');
 	background-repeat: no-repeat;
 	background-position: 45% 50%;
+	transition: 0.3s ease;
+}
+
+.author__link:hover::before {
+	background-color: #10a9cc;
+}
+
+.author__link:active::before {
+	background-color: #007089;
 }
 
 .author__img {

@@ -70,6 +70,10 @@
 	line-height: 132%;
 }
 
+.subscribe__btn:active {
+	text-decoration: underline;
+}
+
 @media (max-width: 1024px) {
 	.subscribe {
 		padding: 0 25px;
